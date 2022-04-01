@@ -12,6 +12,7 @@ import Events from "./pages/Products";
 import Clubs from "./pages/Services";
 import Signup from "./pages/Signup";
 import Loki from './Between/applyart.js'
+import Add from './componento/Addition/Add.js'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/aero" component={Aero}></Route>
           <Route path="/code" component={Code}></Route>
           <Route path="/art" component={Art}></Route>
+          <Route path="/add" component={Add}></Route>
           <Loki/>
         </Switch>
       </BrowserRouter>

@@ -5,12 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
-import Loki from './Between/applyart.js'
+// import Loki from './Between/applyart.js'
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
       <App />
-      <Loki/>
+      {/* <Loki/> */}
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById("root")

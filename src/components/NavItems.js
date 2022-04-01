@@ -51,3 +51,12 @@ export const clubsDropdown = [
     cName: "submenu-item",
   },
 ];
+
+export const eventDropdown = [
+  {
+    id:1,
+    title: "Add_delete_event",
+    path: './add',
+    cName:"submenu-item",
+  },
+];

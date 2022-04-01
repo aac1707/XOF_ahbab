@@ -27,3 +27,26 @@
   color: white;
   padding: 16px;
 }
+
+
+
+.event-submenu {
+  width: 10rem;
+  position: absolute;
+  top: 67px;
+  list-style: none;
+  text-align: start;
+}
+
+.event-submenu li {
+  background: rgb(0, 212, 212);
+  cursor: pointer;
+}
+
+.event-submenu li a:hover {
+  background: rgb(0, 175, 175);
+}
+
+.event-submenu.clicked {
+  display: none;
+}
